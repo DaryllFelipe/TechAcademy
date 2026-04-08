@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="TechAcademyApi.Application/TechAcademyApi.Application.csproj" />
+  <Project Path="TechAcademyApi.Core/TechAcademyApi.Core.csproj" />
+  <Project Path="TechAcademyApi.DependencyInjection/TechAcademyApi.DependencyInjection.csproj" />
+  <Project Path="TechAcademyApi.Infrastructure/TechAcademyApi.Infrastructure.csproj" />
+  <Project Path="TechAcademyApi/TechAcademyApi.csproj" />
+</Solution>

@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TechAcademyApi.Core\TechAcademyApi.Core.csproj" />
+    <ProjectReference Include="..\TechAcademyApi.Application\TechAcademyApi.Application.csproj" />
+    <ProjectReference Include="..\TechAcademyApi.Infrastructure\TechAcademyApi.Infrastructure.csproj" />
+    <ProjectReference Include="..\TechAcademyApi.DependencyInjection\TechAcademyApi.DependencyInjection.csproj" />
+  </ItemGroup>
+
+</Project>
